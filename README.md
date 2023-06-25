@@ -2,9 +2,11 @@
 This repo contains the code for the **innovation award** for the [nuPlan Planning at CVPR'23 End-to-End Autonomous Driving Workshop](https://opendrivelab.com/AD23Challenge.html#Track4). 
 
 **GameFormer Planner: A Learning-enabled Interactive Prediction and Planning Framework for Autonomous Vehicles**
-<br> **[[Report]](https://opendrivelab.com/e2ead/AD23Challenge/Track_4_AID.pdf)**&nbsp;**[[Project Website]](https://mczhi.github.io/GameFormer/)**
+<br> Zhiyu Huang, Haochen Liu, Xiaoyu Mo, Chen Lv 
+<br> [AutoMan Research Lab, Nanyang Technological University](https://lvchen.wixsite.com/automan)
+<br> **[[Report]](https://opendrivelab.com/e2ead/AD23Challenge/Track_4_AID.pdf)**&nbsp;**[[Project Website]](https://mczhi.github.io/GameFormer/)**&nbsp;**[[Presentation]](https://www.youtube.com/watch?t=1204&v=ZwhXilQKULY&feature=youtu.be&ab_channel=OpenDriveLab)**
 
-This is an extension work of [GameFormer](<br> **[[Paper]](https://arxiv.org/abs/2303.05760)** &nbsp;).
+This is an extension work of [GameFormer](https://arxiv.org/abs/2303.05760), and
 
 ## Overview
 
