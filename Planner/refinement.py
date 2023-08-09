@@ -51,8 +51,8 @@ def jerk(optim_vars, aux_vars):
 def end_condition(optim_vars, aux_vars):
     ds = optim_vars[0].tensor
     s = torch.cumsum(ds * DT, dim=-1)
-    end = aux_vars[0].tensor[:, [79]]
-    end_condition = (s[:, [79]] - end) 
+    end = aux_vars[0].tensor[:, -1:]
+    end_condition = (s[:, -1:] - end)
     end_condition = end_condition * (end_condition.abs() > 3.0)
 
     return end_condition
@@ -80,10 +80,10 @@ class RefinementPlanner:
         self._device = device
         self.N = int(T/DT) # trajectory points (ds/dt)
         self.gains = {
-            "speed": 0.5,
+            "speed": 0.3,
             "accel": 0.1,
             "jerk": 1.0,
-            "end": 2.0,
+            "end": 3.0,
             "soft_constraint": 10.0,
             "hard_constraint": 100.0
         }
