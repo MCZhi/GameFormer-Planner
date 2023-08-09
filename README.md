@@ -67,9 +67,9 @@ python run_nuplan_test.py \
 --map_path nuplan/dataset/maps \
 --model_path training_log/your/model
 ```
-Choose one of the three options ('open_loop_boxes', 'closed_loop_nonreactive_agents', 'closed_loop_reactive_agents') for ```--experiment_name```, and specify the ```--model_path```, which points to your trained model.
+Choose one of the three options ('open_loop_boxes', 'closed_loop_nonreactive_agents', 'closed_loop_reactive_agents') for ```--experiment_name```, and specify the ```--model_path```, which points to your trained model. Additionally, ensure to provide ```--data_path``` and ```--map_path``` arguments as done in the data process step.
 
-Adjust the ```--scenarios_per_type``` and ```--total_scenarios arguments``` to control the number of scenarios tested.
+Adjust the ```--scenarios_per_type``` and ```--total_scenarios``` arguments to control the number of scenarios tested.
 
 ## Contact
 If you have any questions or suggestions, please feel free to open an issue or contact us (zhiyu001@e.ntu.edu.sg).
