@@ -4,7 +4,7 @@ This repository contains the code for the **innovation award** solution of the [
 **GameFormer Planner: A Learning-enabled Interactive Prediction and Planning Framework for Autonomous Vehicles**
 <br> Zhiyu Huang, Haochen Liu, Xiaoyu Mo, Chen Lv 
 <br> [AutoMan Research Lab, Nanyang Technological University](https://lvchen.wixsite.com/automan)
-<br> **[[Report]](https://opendrivelab.com/e2ead/AD23Challenge/Track_4_AID.pdf)**&nbsp;**[[Project Website]](https://mczhi.github.io/GameFormer/)**&nbsp;**[[Presentation]](https://www.youtube.com/watch?t=1204&v=ZwhXilQKULY&feature=youtu.be&ab_channel=OpenDriveLab)**
+<br> **[[Report]](https://opendrivelab.com/e2ead/AD23Challenge/Track_4_AID.pdf)**&nbsp;**[[GameFormer Paper]](https://arxiv.org/abs/2303.05760)**&nbsp;**[[Project Website]](https://mczhi.github.io/GameFormer/)**&nbsp;**[[Presentation]](https://www.youtube.com/watch?t=1204&v=ZwhXilQKULY&feature=youtu.be&ab_channel=OpenDriveLab)**
 
 ## Overview
 This is an extension of [GameFormer](https://arxiv.org/abs/2303.05760), focusing on a comprehensive planning framework for autonomous driving. The framework consists of four key steps: feature processing, path planning, model query, and trajectory refinement. Comprehensive evaluations conducted on the nuPlan benchmark demonstrate the competitive performance of the proposed planning framework, validating its effectiveness in both open-loop and closed-loop tests.
