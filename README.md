@@ -46,7 +46,7 @@ Three arguments are necessary: ```--data_path``` to specify the path to the stor
 Optional arguments like ```--scenarios_per_type``` and ```--total_scenarios``` can also be used to specify the amount of data to process.
 
 ### 3. Training
-To train the GameFormer model, run
+To train the GameFormer model, run:
 ```
 python train_predictor.py \
 --train_set nuplan/processed_data/train \
@@ -67,7 +67,7 @@ python run_nuplan_test.py \
 --map_path nuplan/dataset/maps \
 --model_path training_log/your/model
 ```
-Choose one of the three options ('open_loop_boxes', 'closed_loop_nonreactive_agents', 'closed_loop_reactive_agents') for ```--experiment_name```, and specify the ```--model_path```, which points to your trained model. Additionally, ensure to provide ```--data_path``` and ```--map_path``` arguments as done in the data process step.
+Choose one of the three options ('open_loop_boxes', 'closed_loop_nonreactive_agents', 'closed_loop_reactive_agents') for ```--experiment_name```, and specify the ```--model_path```, which points to your trained model. Ensure to provide ```--data_path``` and ```--map_path``` arguments as done in the data process step.
 
 Adjust the ```--scenarios_per_type``` and ```--total_scenarios``` arguments to control the number of scenarios tested.
 
