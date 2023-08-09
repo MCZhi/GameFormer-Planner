@@ -69,6 +69,8 @@ python run_nuplan_test.py \
 ```
 Choose one of the three options ('open_loop_boxes', 'closed_loop_nonreactive_agents', 'closed_loop_reactive_agents') for ```--experiment_name```, and specify the ```--model_path```, which points to your trained model.
 
+Adjust the ```--scenarios_per_type``` and ```--total_scenarios arguments``` to control the number of scenarios tested.
+
 ## Contact
 If you have any questions or suggestions, please feel free to open an issue or contact us (zhiyu001@e.ntu.edu.sg).
 
