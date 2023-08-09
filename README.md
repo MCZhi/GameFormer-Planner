@@ -65,7 +65,7 @@ python run_nuplan_test.py \
 --experiment_name open_loop_boxes \
 --data_path nuplan/dataset/nuplan-v1.1/splits/mini \
 --map_path nuplan/dataset/maps \
---model_path path/to/your/model
+--model_path training_log/your/model
 ```
 Choose one of the three options ('open_loop_boxes', 'closed_loop_nonreactive_agents', 'closed_loop_reactive_agents') for ```--experiment_name```, and specify the ```--model_path```, which points to your trained model.
 
