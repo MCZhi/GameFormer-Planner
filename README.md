@@ -71,6 +71,8 @@ Choose one of the three options ('open_loop_boxes', 'closed_loop_nonreactive_age
 
 Adjust the ```--scenarios_per_type``` and ```--total_scenarios``` arguments to control the number of scenarios tested.
 
+**Make sure the model parameters in ```planner.py``` in ```_initialize_model``` match those used in training.**
+
 ## Contact
 If you have any questions or suggestions, please feel free to open an issue or contact us (zhiyu001@e.ntu.edu.sg).
 
